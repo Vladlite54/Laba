@@ -10,8 +10,7 @@ int main() {
     SPString s;
     cin >> s;
     SPString s1 = "aaaa";
-    
-    cout << s;
+    s.Print();
     
     return 0;
 }
