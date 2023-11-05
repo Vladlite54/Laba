@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     SPString s;
     cin >> s;
-    SPString s1 = "aaaa";
+    SPString s1 = "aaaab";
     s.Print();
     
     return 0;
