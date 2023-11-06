@@ -36,6 +36,11 @@ MyString::~MyString()
 	delete[] this->str;
 }
 
+char *MyString::GetStr()
+{
+    return strdup(this->str);
+}
+
 void MyString::Print()
 {
 	cout << this->str << endl;
