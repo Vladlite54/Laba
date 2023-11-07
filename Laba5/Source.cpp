@@ -1,10 +1,10 @@
 //Source.cpp
 #include <iostream>
 #include <fstream>
-#include "MyString.cpp"
-#include "SPString.cpp"
-#include "StatString.cpp"
-#include "stack.cpp"
+#include "MyString.h"
+#include "SPString.h"
+#include "StatString.h"
+#include "stack.h"
 
 using namespace std;
 
