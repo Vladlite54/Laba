@@ -41,6 +41,5 @@ int main() {
     SPStringTest();
     cout << endl;
     StatStringTest();
-
     return 0;
 }
