@@ -69,3 +69,15 @@ void stack::pop()
 		delete temp;
 	}
 }
+
+StackEx::StackEx() {
+	this->info = "No info";
+}
+
+StackEx::StackEx(MyString info) {
+	this->info = info;
+}
+
+void StackEx::ShowInfo() {
+	cout << this->info << endl;
+}

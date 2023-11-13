@@ -28,4 +28,13 @@ private:
 	int size;
 };
 
+class StackEx {
+private:
+	MyString info;
+public:
+	StackEx();
+	StackEx(MyString info);
+	void ShowInfo();
+};
+
 #endif
