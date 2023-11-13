@@ -61,7 +61,7 @@ void stack::push(MyString* str)
 
 void stack::pop()
 {
-	if (head == nullptr) return; // need exception
+	if (head == nullptr) throw StackEx("Nothing to pop"); // need exception
 	else
 	{
 		Node* temp = this->head;
