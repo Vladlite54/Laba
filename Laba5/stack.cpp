@@ -44,10 +44,11 @@ void stack::print()
 	Node *current = this->head;
 	while (current->next != nullptr)
 	{
-		cout << *current->ref;
+		//cout << *current->ref;
+		head->ref->Print();
 		current = current->next;
 	}
-	cout << *current->ref << endl;
+	current->ref->Print();
 }
 
 void stack::push(MyString* str)

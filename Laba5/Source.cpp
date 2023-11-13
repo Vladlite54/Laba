@@ -57,6 +57,7 @@ void stacktest()
     st.top()->Print();
     cout << "Pushing first string, stack.top: " << endl;
     st.push(&str1);
+    cout << endl;
     st.top()->Print();
     cout << "Pushing third string, stack.top: " << endl;
     st.push(&str3);
@@ -67,6 +68,10 @@ void stacktest()
     cout << "Pushing third string, stack.top: " << endl;
     st.push(&str3);
     st.top()->Print();
+    cout << "////////" << endl;
+    st.print();
+    cout << "//////////" << endl;
+
 }
 
 int main() {
