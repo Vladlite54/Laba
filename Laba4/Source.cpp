@@ -1,9 +1,9 @@
 //Source.cpp
 #include <iostream>
 #include <fstream>
-#include "MyString.h"
-#include "SPString.h"
-#include "StatString.h"
+#include "MyString.cpp"
+#include "SPString.cpp"
+#include "StatString.cpp"
 
 using namespace std;
 
