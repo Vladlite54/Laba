@@ -13,17 +13,19 @@ void stacktest()
 
 int main() {
     
-    stack<MyString> pt(3);
+    stack<int> pt(3);
  
-    // int a = 1;
-    // int b = 2;
-    // int c = 3;
-    MyString a = "Hello";
-    MyString b = "World";
-    MyString c = "!!!";
+    int a = 1;
+    int b = 2;
+    int c = 3;
+    //int d = 4;
+    // MyString a = "Hello";
+    // MyString b = "World";
+    // MyString c = "!!!";
     pt.push(&a);
     pt.push(&b);
     pt.push(&c);
+    //pt.push(&d);
    
     pt.print();
     pt.pop();

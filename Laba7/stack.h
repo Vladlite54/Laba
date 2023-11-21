@@ -61,7 +61,6 @@ inline T stack<T>::pop()
 		exit(EXIT_FAILURE);
 	}
 
-	
 	return *arr[top--];
 }
 
