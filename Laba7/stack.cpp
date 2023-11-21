@@ -55,6 +55,7 @@ void stack<T>::pop()
         st[i - 1] = temp[i];
     }
     size--;
+    delete[] temp;
 }
 
 template <typename T>

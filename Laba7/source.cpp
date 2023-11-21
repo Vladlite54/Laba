@@ -23,7 +23,7 @@ int main()
     cout << "Pushing second element, st.top: " << *st.top() << endl;
     st.push(&c);
     cout << "Pushing third element, st.top: " << *st.top() << endl;
-    // st.pop();
+    st.pop();
     cout << "Poping element, st.top: " << *st.top() << endl;
     st.push(&d);
     cout << "Pushing fourth element, st.top: " << *st.top() << endl;
